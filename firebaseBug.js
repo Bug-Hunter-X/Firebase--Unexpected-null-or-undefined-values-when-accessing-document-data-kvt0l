@@ -1,0 +1,1 @@
+The Firebase SDK may throw an error if you try to access a document snapshot's data before the promise resolves.  This often manifests as `undefined` or `null` values when you expect data.
